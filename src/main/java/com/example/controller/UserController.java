@@ -93,7 +93,7 @@ public class UserController {
 	@PostMapping("/getUsers")
 	public List<User> findAllUserList() {
 		
-		return userServ.getAllUserList()
+		return userServ.getAllUserList();
 	}
 	
 	@PostMapping("/add-User-Address")
